@@ -2,15 +2,17 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Paul-Louis Ageneau'
+COPYRIGHT_YEAR = 2021
 SITENAME = 'libdatachannel'
 SITEURL = ''
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+
+THEME = 'themes/brutalist'
 
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
